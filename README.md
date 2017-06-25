@@ -1,6 +1,7 @@
 # WeatherWidget
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
+It is a component that shows the weather which can be dropped into other projects. Made while learning Angular 2. 
 
 ## Development server
 
