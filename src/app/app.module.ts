@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { JsonpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { WeatherComponent } from './weather-widget/component/weather.component';
@@ -10,7 +11,8 @@ import { WeatherComponent } from './weather-widget/component/weather.component';
     WeatherComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    JsonpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
